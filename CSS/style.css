@@ -78,14 +78,13 @@ h1{
     background: #4cae4c;
 }
 .containertodo .input-group{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
     margin-bottom: 15px;
 }
 .containertodo input {
     padding: 10px;
-    width: 70%; 
-    margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
